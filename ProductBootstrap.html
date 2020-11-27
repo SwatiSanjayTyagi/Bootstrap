@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Bootstrap standard link used for adding CSS file -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" 
+        crossorigin="anonymous"
+    >
+    <title>HR Services</title>
+</head>
+<body>
+          <nav class="navbar navbar-expand-lg navbar-light bg-light card-header" >
+            <!-- added link to the navbar-->
+            <a class="navbar-brand" href="#">
+              <img src="https://i.pinimg.com/564x/e6/ea/84/e6ea842d9a4b1ee5fdb090cb065912ef.jpg" width="50" height="50" class="d-inline-block" alt="" loading="lazy">
+              HR Services
+            </a>
+  
+            <button class="navbar-toggler" 
+                    type="button" 
+                    data-toggle="collapse" 
+                    data-target="#navbarSupportedContent" 
+                    aria-controls="navbarSupportedContent" 
+                    aria-expanded="false" 
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span> <!--styling of navbar toggler icon-->
+            </button>
+            <!--Adding of navbar along with content-->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!--Unordered list used to add Navbar options-->
+              <ul class="navbar-nav mr-auto">
+                  <!--starting the webpage with home page (current)-->
+                <li class="nav-item active">
+                  <a class="nav-link" href="HomeBootstrap.html">Home </a> <!--Home page-->
+                </li>
+                <li class="nav-item active" >
+                  <a class="nav-link" href="ProductBootstrap.html">Products</a> <!--Product-->
+                </li>
+                <!--Added dropdown-->
+                <li class="nav-item active dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" 
+                     id="navbarDropdown" 
+                     role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     Services
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown"> <!--Dropdown menu-->
+                     <a class="dropdown-item" href="TalentBootstrap.HTML">Talent Acquisition Service</a> <!--options in dropdown-->
+                    <a class="dropdown-item" href="TrainingBootstrap.html">Training Services</a>
+                    <a class="dropdown-item" href="HRBootstrap.html">Performance Management Sytem Services</a>
+                    <a class="dropdown-item" href="StatutoryBootstrap.html">Statutory Services</a>
+                  </div>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="ContactBootStrap.html">Contact Us</a> <!--Contact Us-->
+                </li>
+                
+              </ul>
+              <!--Creating a small form for adding search textbox and search button-->
+              <form class="form-inline my-2 my-lg-0">
+                  <!--input box for searching-->
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <!--Button for searching-->
+                <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+    <!--Adding image on the full screen-->
+    <div style="text-align: center;">
+      <!--<img src="https://tech.gsa.gov/assets/img/guides/New_Rules_HR.jpg" class="img-fluid" alt="Responsive image"> 
+      <img src="https://image.slidesharecdn.com/humanresourcemanagementppt-150108084404-conversion-gate01/95/human-resource-management-ppt-3-638.jpg?cb=1420706787" class="img-fluid" alt="Responsive image" width="60%">  
+      <img src="https://lh3.googleusercontent.com/proxy/6RHwKOwhsboG1hpTNICrExWwUWp5dOnK0c6XLaCpxucY-CcYMUeIaup6WhZB7xbVPGS1eCM5oQvC0OEIXt6VBRIjzPrXmUFQiLSG5M3TWSryAEyBODgDl99DJa6O-WmDwnfJAqcG4mGoSxch0eOonwtB8dBSvYag0C1wIxaygg" class="img-fluid" alt="Responsive image" height ="75%" widht="90%"> -->
+      <img src="https://www.hrmexam.com/wp-content/uploads/2019/05/1-47.jpg" class="img-fluid" alt="Responsive image" > 
+    </div>
+
+    <!--Adding 1st Talent Acquisition module Cards-->
+    <div class="container"> <!--Main container-->
+      <div class="row"> <!--First Row-->
+        <div class="col border bg-light"> <!--Start 1st row 1st column-->
+        <div class="card-body"> <!--Adding 1st card body with just the title-->
+          <h5 class="card-title">Talent Acquisition Module</h5>
+        </div> <!--End of 1st card body-->
+      </div> <!--End of first column-->
+    </div> <!--End of first Row-->
+      <div class="row"> <!--Adding second row-->
+        <div class="col border bg-light"> <!--Start 2nd row 1st column-->
+          <div class="card-body"> <!--2.1 card body start-->
+            <h5 class="card-title">Junior Management</h5>
+            <p class="card-text"> <!--Start paragraph-->
+              <ul> <!--Unordered listing-->
+                <li>Data Entry level job</li> <!--Listing-->
+                <li>Clerks</li>
+                <li>Office Assistant</li>
+                <li>Labourers</li>
+                <li>Technician</li>
+              </ul>
+            </p><!--End paragraph-->
+          </div> <!--2.1 card body end-->
+        </div> <!--End of 2nd row 1st column-->
+        <div class="col border bg-light"> <!--Start 2nd row 2nd column-->
+          <div class="card-body"> <!--2.2 card body start-->
+            <h5 class="card-title">Middle Management</h5>
+            <p class="card-text"> <!--Start paragraph-->
+              <ul> <!--Unordered listing-->
+                <li>Executives</li> <!--Listing-->
+                <li>Team Leads</li>
+                <li>Supervisor</li>
+                <li>Managers</li>
+              </ul>
+            </p><!--End paragraph-->
+          </div> <!--2.2 card body end-->
+        </div> <!--End of 2.2 col-->
+        <div class="col border bg-light"> <!--Start 2nd row 3rd column-->
+          <div class="card-body"> <!--2.3 card body start-->
+            <h5 class="card-title">Senior Management</h5>
+            <p class="card-text"> <!--Start paragraph-->
+              <ul> <!--Unordered listing-->
+                <li>Director</li> <!--Listing-->
+                <li>President</li>
+                <li>Vice President</li>
+                <li>General Managers</li>
+              </ul>
+            </p><!--End paragraph-->
+          </div> <!--2.3 card body end-->
+        </div> <!--End of 2.3 col-->
+      </div> <!--End of 2nd row -->
+    </div> <!--End of container-->
+
+    <!--Adding 2nd Training module Cards-->
+    <div class="container"> <!--Main container-->
+      <div class="row"> <!--First Row-->
+        <div class="col border bg-light"> <!--Start 1st row 1st column-->
+        <div class="card-body"> <!--Adding 1st card body with just the title-->
+          <h5 class="card-title">Training Module</h5>
+        </div> <!--End of 1st card body-->
+      </div> <!--End of first column-->
+    </div> <!--End of first Row-->
+      <div class="row"> <!--Adding second row-->
+        <div class="col border bg-light"> <!--Start 2nd row 1st column-->
+          <div class="card-body"> <!--2.1 card body start-->
+            <h5 class="card-title">Technical \ Functional Training</h5>
+            <p class="card-text"> <!--Start paragraph-->
+              Technical training of a company is to ensure everyone uses the technology effectively. Technical training is often performed in-house, but it can also be administrered externally.
+            </p><!--End paragraph-->
+          </div> <!--2.1 card body end-->
+        </div> <!--End of 2nd row 1st column-->
+        <div class="col border bg-light"> <!--Start 2nd row 2nd column-->
+          <div class="card-body"> <!--2.2 card body start-->
+            <h5 class="card-title">Quality Training</h5>
+            <p class="card-text"> <!--Start paragraph-->
+              Quality training refers to familiarizing employees with the means of preventing, detecting, and eliminating nonquality items, usually in an organization that produces a product.             </p><!--End paragraph-->
+          </div> <!--2.2 card body end-->
+        </div> <!--End of 2.2 col-->
+        <div class="col border bg-light"> <!--Start 2nd row 3rd column-->
+          <div class="card-body"> <!--2.3 card body start-->
+            <h5 class="card-title">Managerial Training</h5>
+            <p class="card-text"> <!--Start paragraph-->
+              Managerial training includes leadership skills, such as how to motivate and delegate, 
+              team management, creating communication chanels, giving feedbacks and reviews.
+            </p><!--End paragraph-->
+          </div> <!--2.3 card body end-->
+        </div> <!--End of 2.3 col-->
+        <div class="col border bg-light"> <!--Start 2nd row 4th column-->
+          <div class="card-body"> <!--2.4 card body start-->
+            <h5 class="card-title">Soft Skill Training</h5>
+            <p class="card-text"> <!--Start paragraph-->
+              Soft skills refer to personality traits, social graces, communication, and personal habits that are used to characterize relationships with other people. 
+            </p><!--End paragraph-->
+          </div> <!--2.4 card body end-->
+        </div> <!--End of 2.4 col-->
+      </div> <!--End of 2nd row -->
+    </div> <!--End of container-->
+
+    <!--Adding  Performance Appraisal module Cards-->
+    <div class="container"> <!--Main container-->
+      <div class="row"> <!--First Row-->
+        <div class="col border bg-light"> <!--Start 1st row 1st column-->
+        <div class="card-body"> <!--Adding 1st card body with just the title-->
+          <h5 class="card-title">Performance Appraisal Module</h5>
+        </div> <!--End of 1st card body-->
+      </div> <!--End of first column-->
+    </div> <!--End of first Row-->
+      <div class="row"> <!--Adding second row-->
+        <div class="col border bg-light"> <!--Start 2nd row 1st column-->
+          <div class="card-body"> <!--2.1 card body start-->
+            <h5 class="card-title">Management by objectives</h5>
+            <p class="card-text"> <!--Start paragraph-->
+              Managers and employees together identify, plan, organize, and communicate objectives to focus on during a specific appraisal period. After setting clear goals, managers and subordinates periodically discuss the progress made to control and debate on the feasibility of achieving those set objectives.
+            </p><!--End paragraph-->
+          </div> <!--2.1 card body end-->
+        </div> <!--End of 2nd row 1st column-->
+        <div class="col border bg-light"> <!--Start 2nd row 2nd column-->
+          <div class="card-body"> <!--2.2 card body start-->
+            <h5 class="card-title">360-Degree Feedback</h5>
+            <p class="card-text"> <!--Start paragraph-->
+              360-degree feedback is a multidimensional performance appraisal method that evaluates an employee using feedback collected from the employee’s circle of influence namely managers, peers, customers, and direct reports. This method will not only eliminate bias in performance reviews but also offer a clear understanding of an individual’s competence.
+            </p><!--End paragraph-->
+          </div> <!--2.2 card body end-->
+        </div> <!--End of 2.2 col-->
+        <div class="col border bg-light"> <!--Start 2nd row 3rd column-->
+          <div class="card-body"> <!--2.3 card body start-->
+            <h5 class="card-title">Assessment Centre Method</h5>
+            <p class="card-text"> <!--Start paragraph-->
+              The assessment centre method enables employees to get a clear picture of how others observe them and the impact it has on their performance. The main advantage of this method is that it will not only assess the existing performance of an individual but also predict future job performance.
+            </p><!--End paragraph-->
+          </div> <!--2.3 card body end-->
+        </div> <!--End of 2.3 col-->
+      </div><!--End of second row-->
+      <div class="row"> <!--Adding third row-->
+        <div class="col border bg-light"> <!--Start 3rd row 1st column-->
+          <div class="card-body"> <!--3.1 card body start-->
+            <h5 class="card-title">Behaviorally Anchored Rating Scale (BARS)</h5>
+            <p class="card-text"> <!--Start paragraph-->
+              Behaviorally anchored rating scales (BARS) bring out both the qualitative and quantitative benefits in a performance appraisal process. BARS compares employee performance with specific behavioral examples that are anchored to numerical ratings.
+            </p><!--End paragraph-->
+          </div> <!--3.1 card body end-->
+        </div> <!--End of 3.1 col-->
+        <div class="col border bg-light"> <!--Start 3rd row 2nd column-->
+          <div class="card-body"> <!--3.2 card body start-->
+            <h5 class="card-title">Psychological Appraisals</h5>
+            <p class="card-text"> <!--Start paragraph-->
+              Psychological appraisals come in handy to determine the hidden potential of employees.
+              These appraisals are used to analyze seven major components of an employee’s performance such as interpersonal skills, cognitive abilities, intellectual traits, leadership skills, personality traits, emotional quotient, and other related skills.
+            </p><!--End paragraph-->
+          </div> <!--3.2 card body end-->
+        </div> <!--End of 3.2 col-->
+        <div class="col border bg-light"> <!--Start 3rd row 3rd column-->
+          <div class="card-body"> <!--3.3 card body start-->
+            <h5 class="card-title">Human-Resource (Cost) Accounting Method</h5>
+            <p class="card-text"> <!--Start paragraph-->
+              Human resource (cost) accounting method analyses an employee’s performance through the monetary benefits he/she yields to the company. It is obtained by comparing the cost of retaining an employee (cost to company) and the monetary benefits (contributions) an organization has ascertained from that specific employee.
+            </p><!--End paragraph-->
+          </div> <!--3.3 card body end-->
+        </div> <!--End of 3.3 col-->
+      </div> <!--End of 3rd row -->
+    </div> <!--End of container-->
+
+    <!--Adding 4th Statutory compliance module Cards-->
+    <div class="container"> <!--Main container-->
+      <div class="row"> <!--First Row-->
+        <div class="col border bg-light"> <!--Start 1st row 1st column-->
+        <div class="card-body"> <!--Adding 1st card body with just the title-->
+          <h5 class="card-title">Statutory Compliances Module</h5>
+        </div> <!--End of 1st card body-->
+      </div> <!--End of first column-->
+    </div> <!--End of first Row-->
+      <div class="row"> <!--Adding second row-->
+        <div class="col border bg-light"> <!--Start 2nd row 1st column-->
+          <div class="card-body"> <!--2.1 card body start-->
+            <h5 class="card-title">Acts</h5>
+            <p class="card-text"> <!--Start paragraph-->
+              <ol> <!--Ordered listing-->
+                <li>Factories Act</li>
+                <li>PF & Misc Provision Act</li>
+                <li>ESI Act</li>
+                <li>Minimum Wages Act</li>
+                <li>Bonus Act</li>
+                <li>Contract Labour Regulation and Abolition Act</li>
+                <li>Professional Tax Act</li>
+                <li>Shop and Establishment Act</li>
+                <li>Labour Welfare Fund</li>
+                <li>Maternity Benifit Act</li>
+                <li>Payment Of Wages Act</li>
+                <li>Other Labour Regulations as applicable for the establishment</li>
+              </ol>
+            </p><!--End paragraph-->
+          </div> <!--2.1 card body end-->
+        </div> <!--End of 2nd row 1st column-->
+      </div> <!--End of 3rd row -->
+    </div> <!--End of container-->
+
+    <!--Create Footer-->
+      <div class="card-footer text-muted">
+          <div style="text-align: center;">
+              A complete solution to HR requirements.
+          </div>
+      </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</body>
+</html>

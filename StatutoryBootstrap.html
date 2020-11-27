@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Bootstrap standard link used for adding CSS file -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" 
+        crossorigin="anonymous"
+    >
+    <title>HR Services</title>
+</head>
+<body>
+          <nav class="navbar navbar-expand-lg navbar-light bg-light card-header" >
+            <!-- added link to the navbar-->
+            <a class="navbar-brand" href="#">
+              <img src="https://i.pinimg.com/564x/e6/ea/84/e6ea842d9a4b1ee5fdb090cb065912ef.jpg" width="50" height="50" class="d-inline-block" alt="" loading="lazy">
+              HR Services
+            </a>
+  
+            <button class="navbar-toggler" 
+                    type="button" 
+                    data-toggle="collapse" 
+                    data-target="#navbarSupportedContent" 
+                    aria-controls="navbarSupportedContent" 
+                    aria-expanded="false" 
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span> <!--styling of navbar toggler icon-->
+            </button>
+            <!--Adding of navbar along with content-->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!--Unordered list used to add Navbar options-->
+              <ul class="navbar-nav mr-auto">
+                  <!--starting the webpage with home page (current)-->
+                <li class="nav-item active">
+                  <a class="nav-link" href="HomeBootstrap.html">Home <span class="sr-only">(current)</span></a> <!--Home page-->
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="ProductBootstrap.html">Products</a> <!--Product-->
+                </li>
+                <!--Added dropdown-->
+                <li class="nav-item active dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" 
+                     id="navbarDropdown" 
+                     role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     Services
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown"> <!--Dropdown menu-->
+                    <a class="dropdown-item" href="TalentBootstrap.HTML">Talent Acquisition Service</a> <!--options in dropdown-->
+                    <a class="dropdown-item" href="TrainingBootstrap.html">Training Services</a>
+                    <a class="dropdown-item" href="HRBootstrap.html">Performance Management Sytem Services</a>
+                    <a class="dropdown-item" href="StatutoryBootstrap.html">Statutory Services</a>
+                  </div>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="ContactBootStrap.html">Contact Us</a> <!--Contact Us-->
+                </li>
+                
+              </ul>
+              <!--Creating a small form for adding search textbox and search button-->
+              <form class="form-inline my-2 my-lg-0">
+                  <!--input box for searching-->
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <!--Button for searching-->
+                <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+    <!--Adding Statutory Compliance Services-->
+    <div class="container"> <!--Adding container-->
+      <div class="row" >  <!--Adding 1st row-->
+        <div class = "col border bg-light" > <!--Adding 1st col and background color-->
+          <div class="card-body"> <!--Adding card-->
+              <h5 class="card-title" style="text-align: center;" >Statutory Compliance Module </h5> <!--Adding title to the card-->
+          </div> <!--End of card-->
+        </div> <!--End of 1st col and background color-->
+      </div> <!--End of 1st row-->
+      <div class="row">  <!--Adding 2nd row-->
+        <div class = "col border bg-light" > <!--Adding 2.1 col and background color-->
+          <div class="card-body" style="text-align: center;"> <!--Adding 2.1 card-->
+             <p class="card-text">
+              <ul> <!--unOrdered listing-->
+                <li>Audit of existing system</li>
+                <li>Identification of current system's pitfalls</li>
+                <li>Advisory for pitfall rectification</li>
+                <li>Liasoning with government bodies</li>
+                <li>Generation of challances and submissions</li>
+                <li>Coordination with company's management</li>
+                <li>Documentation</li>
+                <li>Implementation & Feedback</li>
+                <li>Follow up</li>
+              </ul>
+            </p>
+          </div> <!--End of 2.1 card-->
+        </div> <!--End of 2.1 col and background color-->
+      </div> <!--End of 2nd row-->
+      <div class="row"> <!--Adding 3rd row-->
+        <div class="col border bg-light"> <!--Adding 3.1 col-->
+          <div class="card-body"> <!--Card 3.1-->
+            <p class="card-text" style="text-align: center;">
+              Service Charges: As per industry standards
+            </p>
+          </div> <!--End of Card 3.1-->
+        </div> <!--End of 3.1 col-->
+      </div> <!--End of 3rd row-->
+    </div> <!--End of container-->
+    
+    <!--Create Footer-->
+      <div class="card-footer text-muted">
+          <div style="text-align: center;">
+              A complete solution to HR requirements.
+          </div>
+      </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</body>
+</html>

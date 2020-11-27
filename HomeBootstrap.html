@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Bootstrap standard link used for adding CSS file -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" 
+        crossorigin="anonymous"
+    >
+    <title>HR Services</title>
+</head>
+<body>
+          <nav class="navbar navbar-expand-lg navbar-light bg-light card-header" >
+            <!-- added link to the navbar-->
+            <a class="navbar-brand" href="#">
+              <img src="https://i.pinimg.com/564x/e6/ea/84/e6ea842d9a4b1ee5fdb090cb065912ef.jpg" width="50" height="50" class="d-inline-block" alt="" loading="lazy">
+              HR Services
+            </a>
+  
+            <button class="navbar-toggler" 
+                    type="button" 
+                    data-toggle="collapse" 
+                    data-target="#navbarSupportedContent" 
+                    aria-controls="navbarSupportedContent" 
+                    aria-expanded="false" 
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span> <!--styling of navbar toggler icon-->
+            </button>
+            <!--Adding of navbar along with content-->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!--Unordered list used to add Navbar options-->
+              <ul class="navbar-nav mr-auto">
+                  <!--starting the webpage with home page (current)-->
+                <li class="nav-item active">
+                  <a class="nav-link" href="HomeBootstrap.html">Home <span class="sr-only">(current)</span></a> <!--Home page-->
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="ProductBootstrap.html">Products</a> <!--Product-->
+                </li>
+                <!--Added dropdown-->
+                <li class="nav-item active dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" 
+                     id="navbarDropdown" 
+                     role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     Services
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown"> <!--Dropdown menu-->
+                    <a class="dropdown-item" href="TalentBootstrap.HTML">Talent Acquisition Service</a> <!--options in dropdown-->
+                    <a class="dropdown-item" href="TrainingBootstrap.html">Training Services</a>
+                    <a class="dropdown-item" href="HRBootstrap.html">Performance Management Sytem Services</a>
+                    <a class="dropdown-item" href="StatutoryBootstrap.html">Statutory Services</a>
+                  </div>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="ContactBootStrap.html">Contact Us</a> <!--Contact Us-->
+                </li>
+                
+              </ul>
+              <!--Creating a small form for adding search textbox and search button-->
+              <form class="form-inline my-2 my-lg-0">
+                  <!--input box for searching-->
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <!--Button for searching-->
+                <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+    <!--Adding image on the full screen-->
+    <div style="text-align: center;">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS7_K6JrnpoSkiwLGGuacCm-q8iXmfQGc1OxQ&usqp=CAU" class="img-fluid" alt="Responsive image"> 
+    </div>
+    <!--Adding Cards-->
+    <!--<div class="row row-cols-1 row-cols-md-3">  Main grid cart-->
+    <div class="container px-lg-5">  <!--Main grid container-->
+      <div class="row row-cols-4 mx-lg-n5"> <!--Adding 1st row-->
+          <div class="col py-3 px-lg-5 border bg-light"> <!--Talent Acquisition grid col start-->
+            <div class="card"> <!--Talent Acquisition card start-->
+              <img src="https://2k54in5xfseyrzg8bjov2dfb-wpengine.netdna-ssl.com/wp-content/uploads/2019/07/end-to-end.png" class="card-img-top" alt="" width="25%" height="100%">
+              <div class="card-body"> <!--Talent card body start-->
+                <h5 class="card-title">Talent Acquisition</h5> 
+                <p class="card-text">Process involves hiring right resource at right time and cost. Leading to growth and development of the organisation at right pace. </p>
+                <a href="https://en.wikipedia.org/wiki/Recruitment" class="btn btn-outline-secondary btn-sm">View Details</a>
+              </div> <!--Talent card body end-->
+            </div> <!--Talent Acquisition card end-->
+          </div> <!--Talent Acquisition grid col end-->
+          <div class="col py-3 px-lg-5 border bg-light"> <!--Traing and development grid col start-->
+            <div class="card"> <!--training and development card start-->
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSiXo0hYUVCGgk6uAXJIYJ5eDZzf-EHvKRivA&usqp=CAU" class="card-img-top" alt=""`height="5%"> 
+              <div class="card-body"> <!--card body strat-->
+                <h6 class="card-title">Training & Development</h6>
+                <p class="card-text">Training and development process is an organizational activity aimed at improving the performance of the individuals and groups of employees in the organization.</p>
+                <a href="https://en.wikipedia.org/wiki/Training_and_development" class="btn btn-outline-secondary btn-sm">View Details</a>
+              </div> <!--Card body end-->
+            </div> <!--Traing and development card end-->
+          </div> <!--Traing and development grid col end-->
+      <div class="col py-3 px-lg-5 border bg-light">   <!--Performance Appraisal grid col start-->
+        <div class="card">   <!--Performance Appraisal card start-->
+        <img src="https://cdn.educba.com/academy/wp-content/uploads/2019/09/Benefits-of-Performance-Appraisal.png" class="card-img-top" alt="" height="43%" width="25%">
+          <div class="card-body"> <!--Performance Appraisal card body start-->
+            <h6 class="card-title">Performance Appraisal</h6>
+            <p class="card-text">Performance appraisal is the process of evaluating and documenting an employee's performance with a view to enhancing work quality, output and efficiency.</p>
+            <a href="https://en.wikipedia.org/wiki/Performance_appraisal" class="btn btn-outline-secondary btn-sm">View Details</a>
+          </div> <!--Performance Appraisal card body end-->
+        </div> <!--Performance Appraisal card end-->
+      </div>  <!--Performance Appraisal grid col end-->
+      <div class="col py-3 px-lg-5 border bg-light"> <!--Statutory Compliance grid col start-->
+        <div class="card" ><!--/div>style="width: 18rem;">   Statutory Compliance card start-->
+          <img src="https://www.emsphere.com/wp-content/uploads/2016/08/Labour-Laws.jpg" class="card-img-top" alt="" height="43%" width="25%">
+            <div class="card-body"> <!--Statutory Compliance card body start-->
+              <h5 class="card-title">Statutory Compliances </h5>
+              <p class="card-text">Statutory compliance in HR refers to the legal framework within which organizations must operate while dealing with their employees.</p>
+              
+            </div> <!--Statutory Compliance card body end-->
+        </div><!--Statutory Compliance card end-->
+    </div> <!--Statutory Compliance grid col end-->
+  </div> <!--End of 1st row-->
+  </div><!--Main grid end--> 
+    <!--Adding Jumbotron-->  
+    <div style="text-align: center;">
+      <div class="jumbotron"> 
+        <h6 class="display-5">Home Page</h6>
+            <p>Dependable, professional partnership. Developing leaders worldwide. Discover what’s possible.
+            <br>Do business, not HR. Doing things a different way.</p>
+          <a class="btn btn-outline-secondary btn-sm" href="TalentBootstrap.HTML" role="button">Talent Acquisition</a>
+          <a class="btn btn-outline-secondary btn-sm" href="HRBootstrap.html" role="button">Performance Apraisal</a>
+      </div>
+    </div>
+    <!--Create Footer-->
+      <div class="card-footer text-muted">
+          <div style="text-align: center;">
+              A complete solution to HR requirements.
+          </div>
+      </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Bootstrap standard link used for adding CSS file -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" 
+        crossorigin="anonymous"
+    >
+    <title>HR Services</title>
+</head>
+<body>
+          <nav class="navbar navbar-expand-lg navbar-light bg-light card-header" >
+            <!-- added link to the navbar-->
+            <a class="navbar-brand" href="#">
+              <img src="https://i.pinimg.com/564x/e6/ea/84/e6ea842d9a4b1ee5fdb090cb065912ef.jpg" width="50" height="50" class="d-inline-block" alt="" loading="lazy">
+              HR Services
+            </a>
+  
+            <button class="navbar-toggler" 
+                    type="button" 
+                    data-toggle="collapse" 
+                    data-target="#navbarSupportedContent" 
+                    aria-controls="navbarSupportedContent" 
+                    aria-expanded="false" 
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span> <!--styling of navbar toggler icon-->
+            </button>
+            <!--Adding of navbar along with content-->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!--Unordered list used to add Navbar options-->
+              <ul class="navbar-nav mr-auto">
+                  <!--starting the webpage with home page (current)-->
+                <li class="nav-item active">
+                  <a class="nav-link" href="HomeBootstrap.html">Home <span class="sr-only">(current)</span></a> <!--Home page-->
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="ProductBootstrap.html">Products</a> <!--Product-->
+                </li>
+                <!--Added dropdown-->
+                <li class="nav-item active dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" 
+                     id="navbarDropdown" 
+                     role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     Services
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown"> <!--Dropdown menu-->
+                    <a class="dropdown-item" href="TalentBootstrap.HTML">Talent Acquisition Service</a> <!--options in dropdown-->
+                    <a class="dropdown-item" href="TrainingBootstrap.html">Training Services</a>
+                    <a class="dropdown-item" href="HRBootstrap.html">Performance Management Sytem Services</a>
+                    <a class="dropdown-item" href="StatutoryBootstrap.html">Statutory Services</a>
+                  </div>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="ContactBootStrap.html">Contact Us</a> <!--Contact Us-->
+                </li>
+                
+              </ul>
+              <!--Creating a small form for adding search textbox and search button-->
+              <form class="form-inline my-2 my-lg-0">
+                  <!--input box for searching-->
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <!--Button for searching-->
+                <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+    <!--Adding input boxes-->
+    <form action="" method="GET"></form>
+        <div style="text-align: center;" >
+            <input type="text" name="Fname" id="Fname" placeholder="First Name" width="100%"> 
+            <input type="text" name="Lname" id="Lname" placeholder="Last Name" width="100%"> <br>
+            <input type="email" name="eml" id="eml" placeholder="Email" width="100%"> 
+            <input type="number" name="Mob" id="Mob" placeholder="Mobile Number" width="100%"> <br>
+            <textarea name="Desc" id="Desc" cols="49" rows="10" placeholder="Description" width="100%"></textarea> <br>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+    <!--Create Footer-->
+      <div class="card-footer text-muted">
+        <div style="text-align:left;">
+            <p>
+                Address :-
+                <br> A wing Palm Spring,
+                <br> Palm Cout Layout,
+                <br> Link Road,
+                <br> Ghatkopar (w),
+                <br> Mumbai - 400086
+                <br> Contact Number : **********
+            </p>
+        </div>
+          <div style="text-align: center;">
+              A complete solution to HR requirements.
+          </div>
+      </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</body>
+</html>
